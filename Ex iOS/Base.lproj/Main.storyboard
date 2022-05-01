@@ -78,7 +78,7 @@
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fjY-LB-1Bh">
                                                 <rect key="frame" x="20" y="20" width="374" height="41"/>
-                                                <mutableString key="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis congue, arcu non ornare mattis, mauris augue tristique nunc, nec consequat tellus augue nec lectus. Ut commodo faucibus purus a elementum. Vivamus efficitur dui aliquet tortor suscipit varius. Sed blandit ex eget massa malesuada, vel feugiat lectus varius. Maecenas eu molestie ex, nec malesuada nisl. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec pellentesque mi sit amet fringilla elementum. In non erat maximus, posuere dui a, eleifend purus. Maecenas nec turpis nibh. Proin sed ligula eget ligula commodo consequat. Nunc ut purus et sem molestie ultrices at ac enim. Aenean ullamcorper arcu vitae augue ultrices, sit amet semper ligula iaculis. In hac habitasse platea dictumst. Phasellus euismod et eros vel euismod. Praesent hendrerit, nunc ut elementum malesuada, ex quam rhoncus neque, id posuere felis est et augue. Morbi posuere bibendum erat, a tristique tellus ornare nec.</mutableString>
+                                                <string key="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis congue, arcu non ornare mattis, mauris augue tristique nunc, nec consequat tellus augue nec lectus. Ut commodo faucibus purus a elementum. Vivamus efficitur dui aliquet tortor suscipit varius. Sed blandit ex eget massa malesuada, vel feugiat lectus varius. Maecenas eu molestie ex, nec malesuada nisl. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec pellentesque mi sit amet fringilla elementum. In non erat maximus, posuere dui a, eleifend purus. Maecenas nec turpis nibh. Proin sed ligula eget ligula commodo consequat. Nunc ut purus et sem molestie ultrices at ac enim. Aenean ullamcorper arcu vitae augue ultrices, sit amet semper ligula iaculis. In hac habitasse platea dictumst. Phasellus euismod et eros vel euismod. Praesent hendrerit, nunc ut elementum malesuada, ex quam rhoncus neque, id posuere felis est et augue. Morbi posuere bibendum erat, a tristique tellus ornare nec.</string>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
@@ -203,7 +203,7 @@
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="112"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jPU-1o-chY">
-                                        <rect key="frame" x="20" y="44" width="40" height="68"/>
+                                        <rect key="frame" x="5" y="44" width="40" height="68"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="40" id="Dw5-XD-byb"/>
                                         </constraints>
@@ -229,7 +229,7 @@
                                     <constraint firstAttribute="bottom" secondItem="jPU-1o-chY" secondAttribute="bottom" id="LeY-vo-DeA"/>
                                     <constraint firstItem="Xmv-fz-e8B" firstAttribute="centerX" secondItem="CLh-iN-X2k" secondAttribute="centerX" id="RUj-z7-zuO"/>
                                     <constraint firstItem="Xmv-fz-e8B" firstAttribute="width" secondItem="CLh-iN-X2k" secondAttribute="width" id="UIS-MX-Ssh"/>
-                                    <constraint firstItem="jPU-1o-chY" firstAttribute="leading" secondItem="CLh-iN-X2k" secondAttribute="leading" constant="20" id="iRc-ls-r28"/>
+                                    <constraint firstItem="jPU-1o-chY" firstAttribute="leading" secondItem="CLh-iN-X2k" secondAttribute="leading" constant="5" id="iRc-ls-r28"/>
                                     <constraint firstAttribute="bottom" secondItem="Xmv-fz-e8B" secondAttribute="bottom" id="nJd-0E-RDN"/>
                                 </constraints>
                             </view>
@@ -275,7 +275,7 @@
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="112"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Oo6-30-svx">
-                                        <rect key="frame" x="20" y="44" width="40" height="68"/>
+                                        <rect key="frame" x="5" y="44" width="40" height="68"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="40" id="rIl-W6-jxp"/>
                                         </constraints>
@@ -298,7 +298,7 @@
                                 </subviews>
                                 <color key="backgroundColor" systemColor="systemGreenColor"/>
                                 <constraints>
-                                    <constraint firstItem="Oo6-30-svx" firstAttribute="leading" secondItem="YRQ-LS-Tfa" secondAttribute="leading" constant="20" id="OlH-1o-v9c"/>
+                                    <constraint firstItem="Oo6-30-svx" firstAttribute="leading" secondItem="YRQ-LS-Tfa" secondAttribute="leading" constant="5" id="OlH-1o-v9c"/>
                                     <constraint firstAttribute="bottom" secondItem="so4-9O-dIW" secondAttribute="bottom" id="TLx-VH-Cm0"/>
                                     <constraint firstItem="so4-9O-dIW" firstAttribute="width" secondItem="YRQ-LS-Tfa" secondAttribute="width" id="gXp-eq-mYO"/>
                                     <constraint firstAttribute="bottom" secondItem="Oo6-30-svx" secondAttribute="bottom" id="k7D-w2-0N3"/>
@@ -347,7 +347,7 @@
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="112"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Cic-lG-G3L">
-                                        <rect key="frame" x="20" y="44" width="40" height="68"/>
+                                        <rect key="frame" x="5" y="44" width="40" height="68"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="40" id="HlP-qd-Fll"/>
                                         </constraints>
@@ -373,7 +373,7 @@
                                     <constraint firstItem="DT1-zB-8Wc" firstAttribute="centerX" secondItem="Ujo-Tj-jBi" secondAttribute="centerX" id="4gL-ZX-WSS"/>
                                     <constraint firstAttribute="bottom" secondItem="DT1-zB-8Wc" secondAttribute="bottom" id="CVp-CH-h9l"/>
                                     <constraint firstAttribute="bottom" secondItem="Cic-lG-G3L" secondAttribute="bottom" id="aRN-6i-SLP"/>
-                                    <constraint firstItem="Cic-lG-G3L" firstAttribute="leading" secondItem="Ujo-Tj-jBi" secondAttribute="leading" constant="20" id="syt-S5-4jN"/>
+                                    <constraint firstItem="Cic-lG-G3L" firstAttribute="leading" secondItem="Ujo-Tj-jBi" secondAttribute="leading" constant="5" id="syt-S5-4jN"/>
                                     <constraint firstItem="DT1-zB-8Wc" firstAttribute="width" secondItem="Ujo-Tj-jBi" secondAttribute="width" id="uF5-vX-h9h"/>
                                 </constraints>
                             </view>
